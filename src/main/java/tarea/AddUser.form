@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="tarea.AddUser">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="3b84d" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="7ce26" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="South"/>
+            <properties>
+              <font size="14"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e7117" class="javax.swing.JLabel" binding="labelInformacion">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="900f6" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="d731d" class="javax.swing.JButton" binding="save">
+                <constraints/>
+                <properties>
+                  <label value="Confirmar y Guardar"/>
+                  <text value="Confirmar y Guardar"/>
+                </properties>
+              </component>
+              <component id="728d" class="javax.swing.JButton" binding="back">
+                <constraints/>
+                <properties>
+                  <label value="Volver Atrás"/>
+                  <text value="Volver Atrás"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <scrollpane id="a93bf">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="4d23e" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="12582" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="5e01" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="West"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="75080" class="javax.swing.JLabel">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <text value="Idioma"/>
+                </properties>
+              </component>
+              <component id="17f26" class="javax.swing.JLabel">
+                <constraints border-constraint="South"/>
+                <properties>
+                  <text value="Administrador"/>
+                </properties>
+              </component>
+              <component id="95a0e" class="javax.swing.JLabel">
+                <constraints border-constraint="North"/>
+                <properties>
+                  <text value="Correo Electrónico"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="b594a" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="c8d10" class="javax.swing.JTextField" binding="fieldCorreo">
+                <constraints border-constraint="North"/>
+                <properties/>
+              </component>
+              <component id="a364f" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+                <constraints border-constraint="Center"/>
+                <properties/>
+              </component>
+              <component id="dcee1" class="javax.swing.JCheckBox" binding="checkBox1" default-binding="true">
+                <constraints border-constraint="South"/>
+                <properties>
+                  <label value=""/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
